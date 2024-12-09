@@ -67,11 +67,11 @@ The other sections assume that the path is added to the variable.
 
 ###### 1) CN Installation
 {{< highlight html >}}
-sudo curl -o /etc/yum.repos.d/klaytn.repo https://packages.klaytn.net/config/rhel/7/prod.repo && sudo yum install kcnd
+sudo curl -o /etc/yum.repos.d/kaia.repo https://packages.kaia.io/config/rhel/7/kaia.repo && sudo yum install kcnd
 {{< /highlight >}}
 ###### 2) PN Installation
 {{< highlight html >}}
-sudo curl -o /etc/yum.repos.d/klaytn.repo https://packages.klaytn.net/config/rhel/7/prod.repo && sudo yum install kpnd
+sudo curl -o /etc/yum.repos.d/kaia.repo https://packages.kaia.io/config/rhel/7/kaia.repo && sudo yum install kpnd
 {{< /highlight >}}
 {{< line_break >}}
 
@@ -81,14 +81,10 @@ sudo curl -o /etc/yum.repos.d/klaytn.repo https://packages.klaytn.net/config/rhe
 ###### 1) CN Installation
 {{< highlight html >}}
 $ yum install kcnd-vX.X.X.el7.x86_64.rpm
-or
-$ yum install kcnd-baobab-vX.X.X.el7.x86_64.rpm
 {{< /highlight >}}
 ###### 2) PN Installation
 {{< highlight html >}}
 $ yum install kpnd-vX.X.X.el7.x86_64.rpm
-or
-$ yum install kpnd-baobab-vX.X.X.el7.x86_64.rpm
 {{< /highlight >}}
 {{< line_break >}}
 

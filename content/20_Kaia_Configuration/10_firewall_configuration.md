@@ -11,38 +11,13 @@ draft: false
 
 ###### 1) For communication and multichannel between kaia CN, allow TCP ```32323-32324``` with below IP addresses to your firewall ```ingress``` rule.
 ```vim
-210.109.52.54
-210.109.52.222
-35.213.154.116
-15.235.219.80
-147.92.139.235
-147.92.139.230
-147.92.139.231
-147.92.139.232
-147.92.139.233
-147.92.139.234
-35.213.163.233
-47.237.2.159
-52.79.244.19
+CN IPs
 Your PN IP
 ```
 
 ###### 2) Additionally, it is required to allow UDP ```32323``` with the same IP addresses to your firewall ```ingress``` rule.
 ```vim
-210.109.52.54
-210.109.52.222
-35.213.154.116
-15.235.219.80
-147.92.139.235
-147.92.139.230
-147.92.139.231
-147.92.139.232
-147.92.139.233
-147.92.139.234
-35.213.163.233
-47.237.2.159
-52.79.244.19
-52.199.8.244
+CN IPs
 Your PN IP
 ``` 
 
