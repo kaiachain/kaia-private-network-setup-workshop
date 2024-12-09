@@ -15,12 +15,12 @@ draft: false
 
 {{< highlight html >}}
 ## For CN
-$ curl -X GET https://packages.kaia.iopress/genesis.json -o /var/kcnd/data/genesis.json
+$ curl -X GET https://packages.kaia.io/private/private-genesis.json -o /var/kcnd/data/genesis.json
 {{< /highlight >}}
 
 {{< highlight html >}}
 ## For PN
-$ curl -X GET https://packages.kaia.iopress/genesis.json -o /var/kpnd/data/genesis.json
+$ curl -X GET https://packages.kaia.io/private/private-genesis.json -o /var/kpnd/data/genesis.json
 {{< /highlight >}}
 
 
